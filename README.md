@@ -2,7 +2,9 @@
 
 ## Goal
 
-Develop a NextJS website and **simple clone** the web of: https://mui.com/material-ui/getting-started/
+Develop a NextJS website and **simplely clone the layout** of: https://mui.com/material-ui/getting-started/ to demostrate your frontend ability of layout.
+
+Remember, make this project as simple as possible.
 
 ## Requirements
 
