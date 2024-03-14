@@ -31,4 +31,4 @@ Simple footer with logo and website name.
 
 ## Code Submit
 
-Clone this repo and submit your own code.
+Fork this repo and submit your own code to this repo via pull request.
