@@ -12,7 +12,7 @@ Remember, make this project as simple as possible.
 
 - Left area
   - Logo
-  - Sebsite name,
+  - Website name,
 - Right area
   - Search box
   - Login button
