@@ -1,0 +1,110 @@
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    box-sizing: border-box;
+    height: 65px;
+    padding: 8px 16px;
+    border-bottom: 1px solid #E5EAF2;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_left,
+.header_right {
+    display: flex;
+    align-items: center;
+}
+.header_left svg {
+    margin-right: 12px;
+}
+
+.header_right input {
+    padding: 0 6px;
+    box-shadow: rgb(229, 234, 242) 0px -1px 1px inset, rgba(229, 234, 242, 0.6) 0px 1px 0.5px;
+}
+.header_right button {
+    width: 60px;
+    text-align: center;
+    background-color: white;
+}
+.header_right button:hover,
+.header_right input:hover {
+    background-color: rgb(243, 246, 249);
+    box-shadow: rgb(229, 234, 242) 0px -1px 1px inset, rgba(229, 234, 242, 0.6) 0px 1px 0.5px;
+}
+.header_right input,
+.header_right button {
+    height: 34px;
+    outline: none;
+    border: 1px solid rgb(218, 226, 237);
+    margin-left: 10px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+
+
+.container {
+    padding-top: 65px;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    box-sizing: border-box;
+}
+.container_left {
+    width: 300px;
+    height: 100%;
+    overflow-y: auto;
+    border-right: 1px solid #E5EAF2;
+    background-color: white;
+    padding: 20px;
+    
+}
+.container_left .link {
+    display: block;
+    padding: 12px 20px;
+    color: #64748B;
+    text-decoration: none;
+    border-radius: 12px;
+    margin-bottom: 8px;
+    transition: all 0.2s ease-in-out;
+}
+.container_left a:hover {
+    color: #0B0D0E;
+    background-color: #F3F6F9;
+}
+.container_left a.active {
+    background-color: rgba(204, 229, 255, 0.8);
+    color: #0061C2;
+}
+.container_right {
+    flex: 1;
+    height: 100%;
+    overflow-y: auto;
+    box-sizing: border-box;
+}
+.doc_view {
+    min-height: calc(100vh - 165px);
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.footer {
+    height: 100px;
+    padding: 0 20px;
+    border-top: 1px solid #E5EAF2;
+}
+
+.footer_left {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.footer_left svg {
+    margin-right: 10px;
+}
