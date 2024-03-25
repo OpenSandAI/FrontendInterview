@@ -1,0 +1,72 @@
+.container {
+	min-width: 800px;
+	width: 100%;
+  margin: 0 auto;
+  .header {
+  	display: flex;
+  	justify-content: space-between;
+  	align-items: center;
+  	width: 100%;
+  	padding: 20px 40px;
+	  background: linear-gradient(to right, #f5f5f5, #000c17);
+	  position: fixed;
+	  box-shadow: 1px 0 5px 0px #d1e0f1;
+    z-index: 111;
+  	.headerLeft {
+  		display: flex;
+	    justify-content: space-between;
+	    align-items: center;
+	  	.siteName {
+	    	margin-left: 20px;
+	    }
+  	}
+  	.headerRight {
+  		display: flex;
+	    justify-content: space-between;
+	    align-items: center;
+	    .search {
+
+	    }
+	    .signIn {
+  	    display: block;
+		    width: 100px;
+		    margin-left: 20px;
+	    }
+  	}
+  }
+
+  .content {
+  	display: flex;
+  	justify-content: start;
+  	align-items: start;
+  	height: calc(100vh - 47px);
+  	position: relative;
+    padding: 72px 0 0;
+  }
+
+  .menuContainer {
+    height: 100%;
+    background: #000c17;
+  }
+
+  .list {
+    width: calc(100% - 256px);
+    padding: 20px;
+  }
+
+  .footer {
+    background-color: #fff;
+    color: #989ca1;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    padding: 12px;
+    border-top: 1px solid #000c17;
+    background: #000c17;
+  }
+}
+
+.container :global .ant-table {
+  height: calc(100vh - 183px);
+}
