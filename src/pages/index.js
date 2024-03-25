@@ -70,7 +70,7 @@ export default function Home() {
     setValue(newValue);
   };
 
-  console.log(subMenu)
+  console.log(subMenu);
 
   return (
     <>
@@ -81,7 +81,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Box className="content">
-        <Box class="bar-content">
+        <Box className="bar-content">
           <Toolbar className="styled-tool-bar">
             <Box className="logo-box">
               <Image width={48} height={48} src={Logo} />
@@ -101,7 +101,7 @@ export default function Home() {
           </Toolbar>
         </Box>
         <Box className="middle-content">
-          <Box sx={{ width: "100%" }}>
+          <Box sx={{ width: "100%" }} className="menu-content">
             <Tabs value={value}>
               {menuList?.map((item) => (
                 <Tab
@@ -116,14 +116,14 @@ export default function Home() {
             </Tabs>
           </Box>
           {subMenu?.length > 0 && (
-            <Box sx={{ width: "100%" }}>
+            <Box sx={{ width: "100%" }} className="menu-content">
               <Tabs value={subValue}>
                 {subMenu?.map((item) => (
                   <Tab
                     value={item?.id}
                     label={item?.name}
                     onClick={() => {
-                      setSubValue(item?.id)
+                      setSubValue(item?.id);
                       console.log("do something");
                     }}
                   />

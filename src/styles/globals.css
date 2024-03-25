@@ -116,6 +116,8 @@ a {
 
 .artical-content {
   margin-top: 30px;
+  flex: 1;
+  overflow-y: scroll;
 }
 
 .content .bar-content {
@@ -124,12 +126,32 @@ a {
   display: flex;
 }
 
+.bar-content > .MuiToolbar-root {
+  flex: 1;
+}
+
 .content .middle-content {
   flex: 1;
   overflow-y: scroll;
+  display: flex;
+  flex-direction: row;
 }
 
-.middle-content::-webkit-scrollbar {
+.MuiTabs-root {
+  height: 100%;
+}
+
+.menu-content.MuiBox-root {
+  width: 120px;
+}
+
+.MuiTabs-flexContainer {
+  height: 100%;
+  flex-direction: column;
+  background-color: lightskyblue;
+}
+
+.artical-content::-webkit-scrollbar {
   width: 0px !important;
 }
 
