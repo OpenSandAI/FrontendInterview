@@ -1,0 +1,15 @@
+
+
+.left-nav .MuiTypography-root {
+    font-size: 14px;
+}
+
+.left-nav .MuiAccordionDetails-root {
+    margin: 0 20px;
+    padding: 0;
+    border-left: 1px solid #ddd;
+}
+.left-nav .MuiAccordionSummary-root .MuiSvgIcon-root {
+    width: 10px;
+    height: 10px;
+}
