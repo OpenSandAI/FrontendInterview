@@ -1,0 +1,106 @@
+.main {
+  align-items: center;
+  position: relative;
+  min-height: 100vh;
+  background-color: #fff;
+}
+
+.description {
+  display: flex;
+  padding: 1rem;
+  height: 100%;
+  justify-content: space-between;
+  align-items: inherit;
+  font-size: 0.85rem;
+  max-width: var(--max-width);
+  width: 100%;
+  z-index: 2;
+  font-family: var(--font-mono);
+  border-bottom: 1px solid;
+  border-color: #e5eaf2;
+}
+.description .leftPart {
+  display: flex;
+  height: 100%;
+}
+.description .rightPart {
+  display: flex;
+  align-items: center;
+}
+.description .rightPart .search {
+  margin-right: 10px;
+}
+
+.description .rightPart .search .MuiPaper-root {
+  height: 38px !important;
+}
+.description .logo {
+  padding-right: 12px;
+  margin-right: 8px;
+  border-right: 1px solid;
+  border-color: #e5eaf2;
+}
+.description .webName {
+  float: right;
+  font-family: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol";
+  color: #576375;
+  margin-left: 8px;
+  font-size: 0.6875rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
+.description .webName .material {
+  color: #0073e6;
+}
+.description a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.main .content {
+  display: flex;
+  justify-content: space-between;
+  min-height: 90vh;
+}
+.main .content .menu {
+  border-right: 1px solid;
+  border-color: #e5eaf2;
+  padding-right: 3rem;
+}
+.main .content .rightContent {
+  display: flex;
+  flex: 1;
+  padding: 3rem 0 0;
+  flex-direction: column;
+}
+.main .content .rightContent > :not(footer) {
+  padding-left: 3rem;
+}
+.main .content .rightContent h1,
+.main .content .rightContent p,
+.main .content .rightContent h2 {
+  margin-bottom: 1rem;
+}
+.main .content .rightContent ul li {
+  line-height: 2rem;
+}
+.main .content .rightContent .footer {
+  position: absolute;
+  bottom: 3rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border-top: 1px solid;
+  border-color: #e5eaf2;
+  padding-top: 2rem;
+}
+.main .content .rightContent .footer a {
+  margin-left: 3rem;
+  display: flex;
+  margin-right: 1rem;
+}
