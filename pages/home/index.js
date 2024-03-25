@@ -21,7 +21,7 @@ const markdownContent = `
 `
 
 // 模拟数据
-const myWebsite = "myWebsite"
+const myWebsite = "myWebsite.com"
 
 export default function Home () {
   // 搜索关键字
